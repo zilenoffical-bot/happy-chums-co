@@ -495,7 +495,7 @@ function Index() {
                         onMouseEnter={() => playMenuSound("hover")}
                         className={cn(
                           closing ? exitClass : enterClass,
-                          "group relative h-full w-full min-w-0 justify-start overflow-hidden rounded-md border border-border/80 bg-tile p-0 text-left text-foreground shadow-tile backdrop-blur-md transition-all duration-200 hover:border-red-500 hover:bg-tile-active hover:shadow-[0_0_28px_rgba(239,68,68,0.38)] focus-visible:border-primary",
+                          "group relative z-10 h-full w-full min-w-0 justify-start overflow-hidden rounded-md border border-border/80 bg-tile p-0 text-left text-foreground shadow-tile backdrop-blur-md transition-all duration-200 hover:border-red-500 hover:bg-tile-active hover:shadow-[0_0_28px_rgba(239,68,68,0.38)] focus-visible:border-primary",
                           "border-red-500/40",
                           "disconnect-hover-shake disconnect-neon-glow hover:border-red-400 hover:bg-red-950/70",
                           (testDisconnectHover || isDisconnectHovered) &&
