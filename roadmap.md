@@ -5,3 +5,4 @@
 - [x] A térkép csempéhez készüljön egyedi várostérkép
 - [x] Kerüljön be kapcsolható menühang és zenei hangerőszabályzó
 - [x] Mobil és asztali működés ellenőrzése
+- [x] A Kilépés panel mögül a referencia szerinti animált panda bukkanjon elő
